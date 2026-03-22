@@ -4,19 +4,40 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: steelblue;
+    padding: 5rem;
+}
+
 main {
-    max-width: 480px;
+    max-width: 640px;
+}
+
+main img {
+    width: 70px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(000/0.2);
-    /* 1️⃣ */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -24,18 +45,14 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    ...
-}
-
-p {
-    padding: 0;
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 120px;
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -43,7 +60,7 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 10%);
+    border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
