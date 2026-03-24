@@ -1,4 +1,7 @@
-:root {
+:root --primary-color,
+--secondary-color,
+--accent1-color,
+--accent2-color {
     --primary-color: #055a05;
     --secondary-color: #505;
     --accent1-color: #264653;
